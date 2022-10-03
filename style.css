@@ -1,0 +1,99 @@
+﻿/*divDownloadSDK*/
+#divDownloadSDK {height: 220px;background-color:#f8f8f8;padding-top:50px;border-top: solid 1px #ddd;border-bottom: solid 1px #ddd;}
+#divCaption {width: 980px;margin:0 auto 0 auto;}
+.mapPath{color:#1daeeb;font-size:14px;}
+#desc1 {color: #444444;font-size: 30px;}
+#divCaptionLeft {float: left;}
+#divCaptionRight {float: right;padding-top: 5px;}
+a.largeBtnOrg {background: #fe8e14; display: inline-block; height: 50px; border: solid 1px #fe8e14; min-width: 240px; line-height: 34px; text-align: center; padding: 0 20px; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; color: #fff; cursor: pointer; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -ms-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out;font-size: 24px;padding-top: 8px;}
+a.largeBtnOrg:hover { color: #fff; background: #ff9f1f; border: solid 1px #ff9f1f; }
+a.largeBtnOrg:active { color: #fff; background: #f99d31; border: solid 1px #f99d31; }
+.radius6 {-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.radius3 {-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+#spGray {font-size: 14px;display: block;margin-left: 20px;color: gray;}
+#divSampleDesc {display: block;margin:0 auto 0 auto;width: 980px;padding-top:30px;}
+.masterDownloadGrp {
+    float:right;
+    margin-top:20px;
+}
+.masterDownloadGrp .masterDownload {
+    display:inline-block;
+    height:36px;
+    padding:0 18px;
+    line-height:32px;
+    color: #fe8e14;
+    border: 2px solid #fe8e14;
+    border-radius: 3px;
+    text-align:center;
+    transition: all .2s ease-in-out;
+}
+/*compatible ie6,7  so not use ':first-child'*/
+.masterDownloadGrp .masterDownload.first-child {
+    margin-right:20px;
+}
+.masterDownloadGrp .masterDownload:hover {
+    color: #fff;
+    background-color: #ff9f1f;
+    border-color: #ff9f1f;
+}
+.masterDownloadGrp .masterDownload:active {
+    background-color: #f99d31;
+    border-color: #f99d31;
+}
+
+
+/*divBarcodeReader*/
+#divBarcodeReader{ margin:0 auto 0 auto; width: 980px; height: 648px; border: solid 1px #ddd;}
+#divLeft{ float: left; width: 498px; height: 646px;}
+#imgPreviewer{max-width:100%;max-height:100%;}
+#divRight{ float: right; width: 480px; background-color: #fcfcfc; height: 646px;}
+#tbxResult{ display: block; }
+.gray-border {border: 1px solid #ddd;margin-left: 30px;margin-right: 30px;background-color: #FFF;}
+#barcodeTypes {height: 114px;}
+.dbrTitle {color: #444444;font-weight: bold;font-size: 16px;}
+.lblBarcodeType {color: #606060;font-weight: normal;font-size: 14px;}
+#divMaxPage {height: 84px;}
+#txtBarcodeNumbers {width: 130px;padding-left: 10px;padding-right: 10px;border: 1px solid #1daeeb;height: 30px; font-size: 16px;}
+#divBtnReader {height: 98px;}
+#btnReadBarcode {min-height: 36px;min-width: 120px;background-color: #50a8e1;font-size: 16px;color: white; border: 0px;}
+#btnReadBarcode:hover{background-color: #61c2ec;}
+#btnReadBarcode:active{background-color: #1daeeb;}
+#divResult {height: 505px;overflow-x:auto;overflow-y:auto;}
+.grayFont14 {color: #606060;font-size: 14px;}
+
+
+/*divCodeSnippet*/
+.blackBoldFont24{color:#444444; font-size:24px; font-weight: bold;}
+#divCodeSnippet {margin:0 auto 0 auto;width:980px;}
+#divCodeSnippetBody {height: 500px;border: 1px solid #ddd;background-color: #FFF;overflow:auto;}
+#preCode{border: 0px;background-color: white;margin-top: 20px;}
+
+
+/*divApi*/
+#divApi {margin:0 auto 0 auto; width: 980px;}
+#divApiContainer {height:160px;border: 1px solid #ddd;background-color: #FFF;}
+.blueFont16 {font-size: 16px;color: #1daeeb;}
+#ulLeft1 {margin-top: 40px;margin-left: 70px;margin-bottom: 40px;float: left;}
+#ulLeft2 {float: left;margin-left: 230px;margin-top: 40px;margin-bottom: 40px;}
+.discLi {list-style-type: disc; }
+.blackFont14 {color: #000000;font-size: 14px;}
+.blueFont{color:blue;}
+.greenFont{color:forestgreen;}
+.redFont{color:orangered;}
+.inlineBlock {display: inline-block;}
+
+/*other*/
+.minHeight15 {min-height:15px;}
+.minHeight30 {min-height:30px;}
+.minHeight33 {min-height:33px;}
+.minHeight40 {min-height:40px;}
+.minHeight50 {min-height:50px;}
+.minHeight60 {min-height:60px;}
+.minHeight150 {min-height:150px;}
+.fontSize14 { font-size: 14px;}
+.fontSize16 { font-size: 16px;}
+.noTextDecoration{text-decoration: none;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.displayBlock{display: block;}
+.blackGrayFont16{color:#606060; font-size:16px;}
